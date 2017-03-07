@@ -1,3 +1,11 @@
 body { 
 	padding-top: 70px; 
 }
+
+.Title {
+	padding-top: 90px;
+	min-height: 600px;
+	margin-bottom: 0;
+	background-image: url('images/Gallery1.jpg'); 
+	background-size: cover; 
+	background-attachment: fixed;
