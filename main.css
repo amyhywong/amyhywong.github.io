@@ -1,18 +1,10 @@
 body { 
 	padding-top: 70px; 
-}
-
-.Title {
-	padding-top: 90px;
 	min-height: 600px;
 	margin-bottom: 0;
 	background-image: url('Images/Gallery1.jpeg'); 
 	background-size: cover; 
 	background-attachment: fixed;
-
-<<<<<<< HEAD
-	* {box-sizing:border-box}
-=======
 }
 
 .Title h1{
@@ -24,8 +16,22 @@ body {
 
 }
 
+#Recipe h1{
+	font-family: 'constantia', bold;
+	color: white;
+	font-size: 500%;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+footer{
+	color: white;
+}
 
 
+<<<<<<< HEAD
+	* {box-sizing:border-box}
+=======
 
 
 =======
