@@ -9,13 +9,22 @@ body {
 	background-image: url('Images/Gallery1.jpeg'); 
 	background-size: cover; 
 	background-attachment: fixed;
-<<<<<<< HEAD
+
 }
 
 .Title h1{
 	font-family: 'constantia';
-	color: white;
-	font-size: 1500%;
+	color: red;
+	font-size: 1200%;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+
+}
+
+
+
+
+
 =======
 
 	* {box-sizing:border-box}
