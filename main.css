@@ -11,7 +11,7 @@ body {
 	font-family: 'constantia';
 	color: red;
 	font-size: 1200%;
-	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-width: 2px;
    -webkit-text-stroke-color: white;
 
 }
