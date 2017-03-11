@@ -7,6 +7,30 @@ body {
 	background-attachment: fixed;
 }
 
+.nav a {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.hover-item {
+  color: black;
+}
+
+.nav ul {
+  display: inline;
+}
+.nav li {
+  display: inline-block;
+}
+
+.navbar-default {
+    background-color: #304155;
+    height: 40px; 
+}    
+
 .Title h1{
 	font-family: 'constantia';
 	color: red;
@@ -16,12 +40,12 @@ body {
 
 }
 
-#Recipe h1{
+h1{
 	font-family: 'constantia', bold;
-	color: white;
+   color: white;
 	font-size: 500%;
 	-webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
+   -webkit-text-stroke-color: white;
 }
 
 #China:hover {
