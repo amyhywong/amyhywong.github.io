@@ -24,6 +24,41 @@ body {
    -webkit-text-stroke-color: black;
 }
 
+#China:hover {
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-o-transform-origin: top left;
+transform-origin: top left;
+border: 15px double white;
+}
+
+#Thailand:hover {
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-o-transform-origin: top left;
+transform-origin: top left;
+border: 15px double white;
+}
+
+#Vietnam:hover {
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-o-transform-origin: top left;
+transform-origin: top left;
+border: 15px double white;
+}
 footer{
 	color: white;
 }
