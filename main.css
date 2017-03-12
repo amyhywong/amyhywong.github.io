@@ -31,20 +31,20 @@ body {
     height: 40px; 
 }    
 
+
 .Title h1{
 	font-family: 'constantia';
 	color: red;
 	font-size: 1200%;
-	-webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: white;
-     text-align: center;
-
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  text-align: center;
 }
 
 h1{
 	font-family: 'constantia', bold;
    color: white;
-	font-size: 500%;
+	font-size: 400%;
 	-webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
 }
@@ -85,14 +85,7 @@ transform-origin: top left;
 border: 15px double white;
 }
 
-footer{
-	color: white;
-   position: bottom;
-   bottom:0;
-   width:100%;
-   height:60px;  
-   text-align: center;
-}
+
 
 .img-circle {
     margin: 10px 60px 200px 60px;
@@ -104,7 +97,7 @@ div.text-about {
   height: 190px;
   border-radius: 5px;
   border: solid 3px red;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   font-family: 'constantia';
   color: black;
   font-size: large;
@@ -122,7 +115,7 @@ div.text-about {
     width: 70%; 
     height: 100%; 
     margin:0px auto; 
-    display:inline-block
+    display: inline-block
   }
 
 #Recipe1 {
@@ -131,16 +124,13 @@ div.text-about {
   height: 900px;
   border-radius: 5px;
   border: solid 3px red;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   font-family: 'constantia';
   color: black;
   font-size: large;
   text-align: center;
-   position:absolute;
   left: 10%;
-    float:left;
-    clear:both;
-
+  position: absolute; top: 300px; left: 150px;
 }
 
 #Recipe1 h1{
@@ -168,12 +158,12 @@ div.text-about {
   height: 2000px;
   border-radius: 5px;
   border: solid 3px red;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   font-family: 'constantia';
   color: black;
   font-size: large;
   text-align: center;
-   position:absolute;
+  position: absolute; top: 1300px; left: 150px;
   left: 10%;
     float:left;
     clear:both;
@@ -185,5 +175,104 @@ div.text-about {
   font-size: xx-large;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+#Recipe3 {
+  width: 1200px;   
+    padding: 50px;
+  height: 1400px;
+  border-radius: 5px;
+  border: solid 3px red;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'constantia';
+  color: black;
+  font-size: large;
+  text-align: center;
+  position: absolute; top: 1300px; left: 150px;
+  left: 10%;
+    float:left;
+    clear:both;
+}
+
+#Recipe3 h1{
+  color: black;
+  font-size: xx-large;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+#Recipe4 {
+  width: 1200px;   
+    padding: 50px;
+  height: 1000px;
+  border-radius: 5px;
+  border: solid 3px red;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'constantia';
+  color: black;
+  font-size: large;
+  text-align: center;
+  left: 10%;
+  position: absolute; top: 300px; left: 150px;
+}
+
+#Recipe4 h1{
+  color: black;
+  font-size: xx-large;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+#Recipe5 {
+  width: 1200px;   
+    padding: 50px;
+  height: 1725px;
+  border-radius: 5px;
+  border: solid 3px red;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'constantia';
+  color: black;
+  font-size: large;
+  text-align: center;
+  position: absolute; top: 1400px; left: 150px;
+  left: 10%;
+    float:left;
+    clear:both;
+}
+
+#Recipe5 h1{
+  color: black;
+  font-size: xx-large;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+#Submit {
+  font-family: 'constantia';
+  color: red;
+  font-size: 125%;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+  text-align: center;
+}
+
+#descriptionSubmit {
+  font-size: xx-small;
+  color: white;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;
+  color: white;
   text-align: center;
 }
