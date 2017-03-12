@@ -37,6 +37,7 @@ body {
 	font-size: 1200%;
 	-webkit-text-stroke-width: 2px;
    -webkit-text-stroke-color: white;
+     text-align: center;
 
 }
 
@@ -85,14 +86,44 @@ border: 15px double white;
 }
 footer{
 	color: white;
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;  
+   text-align: center;
 }
 
 .img-circle {
     margin: 10px 60px 200px 60px;
     border: 4px solid white;
     border-radius: 50%;
+  }
 
-p#desciption {background-color: white;}
+div.text-about {
+  height: 190px;
+  border-radius: 5px;
+  border: solid 3px red;
+  background-color: white;
+  font-family: 'constantia';
+  color: black;
+  font-size: large;
+  text-align: center;
+}
+
+#outerdiv {
+    width: 90%; 
+    height: 90%; 
+    position:fixed; 
+    text-align:center
+  }
+
+#googleMap {
+    width: 70%; 
+    height: 100%; 
+    margin:0px auto; 
+    display:inline-block
+  }
+
 
 <<<<<<< HEAD
 	* {box-sizing:border-box}
