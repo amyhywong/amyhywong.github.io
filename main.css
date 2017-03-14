@@ -13,7 +13,14 @@ body {
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
+  display: block;
 }
+
+
+.dropdown-menu {
+  background-color: black;
+}
+
 
 .hover-item {
   color: black;
