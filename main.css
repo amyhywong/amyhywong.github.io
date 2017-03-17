@@ -1,128 +1,304 @@
 body { 
 	padding-top: 70px; 
-}
-
-.Title {
-	padding-top: 90px;
 	min-height: 600px;
 	margin-bottom: 0;
 	background-image: url('Images/Gallery1.jpeg'); 
 	background-size: cover; 
 	background-attachment: fixed;
-
-<<<<<<< HEAD
-	* {box-sizing:border-box}
-=======
 }
+
+.nav a {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  display: block;
+}
+
+
+.dropdown-menu {
+  background-color: black;
+}
+
+
+.hover-item {
+  color: black;
+}
+
+.nav ul {
+  display: inline;
+}
+.nav li {
+  display: inline-block;
+}
+
+.navbar-default {
+    background-color: #304155;
+    height: 40px; 
+}    
+
 
 .Title h1{
 	font-family: 'constantia';
 	color: red;
 	font-size: 1200%;
-	-webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: white;
-
-}
-
-
-
-
-
-=======
-
-	* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+h1{
+	font-family: 'constantia', bold;
+   color: white;
+	font-size: 400%;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+#China:hover {
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-o-transform-origin: top left;
+transform-origin: top left;
+border: 15px double white;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+#Thailand:hover {
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-o-transform-origin: top left;
+transform-origin: top left;
+border: 15px double white;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+#Vietnam:hover {
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-o-transform-origin: top left;
+transform-origin: top left;
+border: 15px double white;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+
+
+.img-circle {
+    margin: 10px 60px 200px 60px;
+    border: 4px solid white;
+    border-radius: 50%;
+  }
+
+div.text-about {
+  height: 190px;
+  border-radius: 5px;
+  border: solid 3px red;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'constantia';
+  color: black;
+  font-size: large;
+  text-align: center;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
->>>>>>> origin/master
+#outerdiv {
+    width: 90%; 
+    height: 90%; 
+    position:fixed; 
+    text-align:center
+  }
+
+#googleMap {
+    width: 70%; 
+    height: 100%; 
+    margin:0px auto; 
+    display: inline-block
+  }
+
+#Recipe1 {
+  width: 1200px;   
+    padding: 50px;
+  height: 900px;
+  border-radius: 5px;
+  border: solid 3px red;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'constantia';
+  color: black;
+  font-size: large;
+  text-align: center;
+  left: 10%;
+  position: absolute; top: 300px; left: 150px;
 }
+
+#Recipe1 h1{
+  color: black;
+  font-size: xx-large;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+.FoodTitle h1{
+  font-family: 'constantia';
+  color: black;
+  font-size: 1000%;
+  text-align: left;
+}
+
+#Method {
+  text-align: left;
+}
+
+#Recipe2 {
+  width: 1200px;   
+    padding: 50px;
+  height: 2000px;
+  border-radius: 5px;
+  border: solid 3px red;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'constantia';
+  color: black;
+  font-size: large;
+  text-align: center;
+  position: absolute; top: 1300px; left: 150px;
+  left: 10%;
+    float:left;
+    clear:both;
+
+}
+
+#Recipe2 h1{
+  color: black;
+  font-size: xx-large;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+#Recipe3 {
+  width: 1200px;   
+    padding: 50px;
+  height: 1400px;
+  border-radius: 5px;
+  border: solid 3px red;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'constantia';
+  color: black;
+  font-size: large;
+  text-align: center;
+  position: absolute; top: 1300px; left: 150px;
+  left: 10%;
+    float:left;
+    clear:both;
+}
+
+#Recipe3 h1{
+  color: black;
+  font-size: xx-large;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+#Recipe4 {
+  width: 1200px;   
+    padding: 50px;
+  height: 1000px;
+  border-radius: 5px;
+  border: solid 3px red;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'constantia';
+  color: black;
+  font-size: large;
+  text-align: center;
+  left: 10%;
+  position: absolute; top: 300px; left: 150px;
+}
+
+#Recipe4 h1{
+  color: black;
+  font-size: xx-large;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+#Recipe5 {
+  width: 1200px;   
+    padding: 50px;
+  height: 1725px;
+  border-radius: 5px;
+  border: solid 3px red;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'constantia';
+  color: black;
+  font-size: large;
+  text-align: center;
+  position: absolute; top: 1400px; left: 150px;
+  left: 10%;
+    float:left;
+    clear:both;
+}
+
+#Recipe5 h1{
+  color: black;
+  font-size: xx-large;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+#Submit {
+  font-family: 'constantia';
+  color: red;
+  font-size: 125%;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+  text-align: center;
+}
+
+#descriptionSubmit {
+  font-size: xx-small;
+  color: black;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+form {
+  height: 625px;
+  width: 900px;
+  border-radius: 5px;
+  border: solid 3px white;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'constantia';
+  color: black;
+  font-size: large;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 30px;
+  position: absolute; top: 400px; left: 275px;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;
+  color: white;
+  text-align: center;
+}
+<<<<<<< HEAD
 >>>>>>> origin/master
 
 .fa {
@@ -147,3 +323,5 @@ body {
     background: #55ACEE;
     color: white;
 }
+=======
+>>>>>>> origin/master
