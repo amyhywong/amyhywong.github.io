@@ -149,8 +149,14 @@ div.text-about {
 #googleMap {
     width: 70%; 
     height: 100%; 
+<<<<<<< Updated upstream
     margin: 0px auto 0px auto;
     text-align: center;
+=======
+    margin:0px auto; 
+    display: inline-block;
+    position: center;
+>>>>>>> Stashed changes
   }
 
 #Recipe1 {
