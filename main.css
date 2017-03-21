@@ -61,12 +61,17 @@ body {
   text-align: center;
 }
 
-h1{
-	font-family: 'constantia', bold;
-   color: white;
-	font-size: 400%;
-	-webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: white;
+#Recipe h1{
+  font-family: 'constantia';
+  color: red;
+  font-size: 400%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  text-align: center;
+}
+
+.small h1 {
+  color: red;
 }
 
 #China:hover {
@@ -114,7 +119,7 @@ border: 15px double white;
   }
 
 div.text-about {
-  height: 190px;
+  height: 210px;
   border-radius: 5px;
   border: solid 3px red;
   background-color: rgba(255, 255, 255, 0.7);
@@ -128,14 +133,15 @@ div.text-about {
     width: 90%; 
     height: 90%; 
     position:fixed; 
-    text-align:center
+    text-align:center;
   }
 
 #googleMap {
     width: 70%; 
     height: 100%; 
     margin:0px auto; 
-    display: inline-block
+    display: inline-block;
+    position: relative;
   }
 
 #Recipe1 {
@@ -307,8 +313,7 @@ form {
   position: absolute; top: 400px; left: 275px;
 }
 
-footer{
-  position:absolute;
+.footer {
   bottom:0;
   width:100%;
   height:60px;
