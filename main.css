@@ -61,7 +61,7 @@ body {
   text-align: center;
 }
 
-<<<<<<< Updated upstream
+
 #Recipe h1{
   font-family: 'constantia';
   color: red;
@@ -73,14 +73,15 @@ body {
 
 .small h1 {
   color: red;
-=======
+}
+
 h1{
 	font-family: 'constantia', bold;
    color: red;
 	font-size: 400%;
 	-webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
->>>>>>> Stashed changes
+
 }
 
 #China:hover {
